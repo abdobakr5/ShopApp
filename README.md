@@ -1,16 +1,28 @@
-# shopapp
+#  ShopApp
 
-A new Flutter project.
+A simple Flutter shopping app with localization support, smooth navigation, and user-friendly UI.
 
-## Getting Started
+##  Features
 
-This project is a starting point for a Flutter application.
+-  **Language Support**
+    - Choose your preferred language at startup (English / Arabic).
+    - Dynamic text translations using **easy_localization**.
 
-A few resources to get you started if this is your first Flutter project:
+-  **Authentication Screens**
+    - **Sign Up** and **Sign In** with form validation.
+    - Error messages and success dialogs are localized.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-  **Shopping Home Screen**
+    - Product listing with images, names, and prices.
+    - Offers section highlighted separately.
+    - Add-to-Cart button with localized feedback (SnackBar).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-  **UI & UX**
+    - Smooth transitions between screens.
+    - Clean design with gradient backgrounds and custom fonts.
+    - Buttons and sections with interactive functions.
+
+-  **Other Highlights**
+    - Input validation (email format, password length).
+    - Localized labels and messages.
+    - Organized project structure (screens, widgets, assets).  

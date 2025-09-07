@@ -1,0 +1,34 @@
+name: shopapp
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.20.2
+  cached_network_image: ^3.3.1
+  cupertino_icons: ^1.0.8
+  easy_localization: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/images/
+    - lib/assets/images/local_image.png
+    - lib/assets/lang/ar.json
+    - lib/assets/lang/en.json
+
+  fonts:
+    - family: Suwannaphum
+      fonts:
+        - asset: lib/assets/fonts/Suwannaphum-Regular.ttf
